@@ -24,7 +24,7 @@ const PaymentForm = () => {
     const options = {
       method: "POST",
       headers: {
-        "Authorization": "pk_test.d0CNTSbfwbl4tetcCg5L1BO5Nab4yygTOiH53nnQ8Y5z5EJwWjSXxsDvKu6GvbiZgDFHPkvr1EGM3WDXM5ELvNYdNFeKrGuKdx6qoxG3NSYR2QcptgpasG3ppCgkl",
+        "Authorization": "",
         "Content-Type": "application/json",
       },
       body: params,
