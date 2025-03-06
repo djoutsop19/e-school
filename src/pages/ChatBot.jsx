@@ -9,7 +9,7 @@ const ChatBot = () => {
   const [loading, setLoading] = useState(false);
   const [uploadedFile, setUploadedFile] = useState(null);
 
-  const API_KEY = "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"; // Remplace par ta clé OpenAI
+  const API_KEY = ""; 
 
   const sendMessage = async () => {
     if (!input.trim() && !uploadedFile) return;
